@@ -47,13 +47,13 @@ class EditorAndInterpreter extends LitElement {
     }
 
     getCode() {
-         const editor = this.shadowRoot.querySelector('[part=editor]');
-         return editor.value;
+        const editor = this.shadowRoot.querySelector('[part=editor]');
+        return editor.value;
     }
 
     setOutput(value) {
         const output = this.shadowRoot.querySelector('[part=output-generated]');
-         return output.innerHTML = value;
+        return output.innerHTML = value;
     }
 
     run() {
