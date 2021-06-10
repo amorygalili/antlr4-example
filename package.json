@@ -6,7 +6,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "vite",
     "build": "vite build",
-    "generate": "java -jar ./scripts/antlr-4.9.2-complete.jar -Dlanguage=JavaScript -o src src/Chat.g4"
+    "generate": "java -jar ./scripts/antlr-4.9.2-complete.jar -Dlanguage=JavaScript -o src/chat src/Chat.g4"
   },
   "repository": {
     "type": "git",
