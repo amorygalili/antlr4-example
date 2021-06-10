@@ -1,0 +1,28 @@
+{
+  "name": "antlr4-example",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite",
+    "build": "vite build",
+    "generate": "java -jar ./scripts/antlr-4.9.2-complete.jar -Dlanguage=JavaScript -o src src/Chat.g4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amorygalili/antlr4-example.git"
+  },
+  "author": "Amory Galili",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amorygalili/antlr4-example/issues"
+  },
+  "homepage": "https://github.com/amorygalili/antlr4-example#readme",
+  "devDependencies": {
+    "vite": "^2.3.7"
+  },
+  "dependencies": {
+    "antlr4": "^4.9.2",
+    "lit-element": "^2.5.1"
+  }
+}
