@@ -1,4 +1,4 @@
-Antrl Installation
+Antlr4 Installation
 ==================
 
 https://github.com/antlr/antlr4/blob/master/doc/getting-started.md
