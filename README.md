@@ -14,4 +14,6 @@ Running
 
 install with `npm install`
 
+Run `npm run generate` to generate the lexer/parser using antlr4.
+
 Then run with `npm start` and navigate to http://localhost:3000/
